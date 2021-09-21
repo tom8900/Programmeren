@@ -1,0 +1,135 @@
+body{
+    background-color: white;
+font-family: arial;
+text-align: center;
+width: 800px;
+margin: 0 auto;
+
+}
+
+header{
+
+    text-align: center;
+    font-size: 50px;
+}
+
+h1{
+    text-align: left;
+    
+font-size: 20px;
+
+}
+
+.box{
+
+    height: 125px;      /* hoogte van de header word aangepast*/
+width: 90%;       /* breedte op 100 %*/
+border: 1px solid darkblue;  /* geeft de randen van heet blokje weer in zwart*/
+padding: 10px 25px; /* past de hoogte van het blokje aan*/
+background-color:lightsteelblue ; /* past achtergrond kleur aan van header*/
+color: black;  /* kleur word ingesteld op zwart*/  /* tekst word in het midden gezet*/
+text-decoration: none;  /* geen decoratie van de tekst*/
+font-family: arial; /* lettertype*/
+font-size: 17px;   /* past de groote van de letters aan*/
+    margin: 0 auto; 
+    margin-block: 5px;    
+    
+    
+
+
+}
+ul {
+
+    background-color: darkblue;
+height: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    display: block;
+}
+
+.myList a{
+margin-left: 0%;
+padding: 14px 40px;
+float: left;
+color: lightgrey;
+}
+
+
+
+ a:hover {
+    color:white;
+    font-weight: bold;
+
+
+
+
+
+}
+
+.box:hover{
+
+    background-color: darkcyan;
+}
+
+
+img{
+
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 67%;
+
+
+
+}
+
+#koffie1 {
+position: absolute;
+top:33%
+
+}
+
+#huis{
+
+    position: absolute;
+    top:53%
+
+}
+
+#bbq1{
+
+
+    position: absolute;
+    top:73%
+}
+
+
+#koffie2{
+
+
+    position: absolute;
+    top:93%
+}
+
+
+
+
+#bbq2{
+
+    position: absolute;
+    top:113%
+
+}
+
+.text{
+
+margin-right: 130px;
+
+
+}
+.back{
+
+
+    background-color: lightsteelblue;
+}
